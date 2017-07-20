@@ -1,0 +1,43 @@
+<h1>JSON-YAML Toggle</h1>
+
+<p>This demonstrats how this extension works.</p>
+
+<pre id="text">
+  {
+    "name": "json-yaml-toggle",
+    "version": "1.0.0",
+    "description": "Toggle JSON and YAML in Browser!",
+    "main": "index.js",
+    "directories": {
+      "doc": "docs",
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+    },
+    "author": "Yosuke Torii",
+    "license": "MIT"
+  }
+</pre>
+<div class="button-area"><button id="toggle">Toggle</button></div>
+
+<script>
+document.getElementById('toggle').addEventListener('click', function(e) {
+  var text = document.getElementById('text').textContent;
+  var result = "YAML";
+  console.log(result);
+  textarea.value = result;
+});
+</script>
+<style>
+pre {
+  width: 600px;
+}
+.button-area {
+  width: 600px;
+  text-align: center;
+}
+#toggle {
+  width: 100px;
+}
+</style>
