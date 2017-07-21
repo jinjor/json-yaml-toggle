@@ -8,8 +8,15 @@
     "test": "test"
   },
   "scripts": {
+    "build": "webpack ./src/content-script.js ./package/content-script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yosuke Torii",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
 }
