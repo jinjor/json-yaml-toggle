@@ -3,7 +3,9 @@ JSON-YAML Toggle
 
 Toggle JSON and YAML in Browser!
 
-```json
+**JSON**
+
+```js
 {
   "name": "json-yaml-toggle",
   "version": "1.0.0",
@@ -27,6 +29,9 @@ Toggle JSON and YAML in Browser!
   }
 }
 ```
+
+**YAML**
+
 ```yaml
 name: json-yaml-toggle
 version: 1.0.0
@@ -46,6 +51,8 @@ devDependencies:
   webpack: ^3.3.0
 ```
 
+You can try it above.
+
 ## Usage
 
 Just right-click and choose "Toggle JSON/YAML".
@@ -62,7 +69,7 @@ It works with following rules:
 5. If (4) succeeds, assign the result to `element.textContent`.
 6. If (4) fails, nothing happens at all.
 
-Note: If element is nested like `<pre><code> { "foo": "bar" } </code></pre>`, inner elements will be broken and won't come back. If it matters in some cases, please let me know.
+Note: If element is nested like `<pre><code> { "foo": "bar" } </code></pre>`, it works but inner structure will be broken and won't come back again. If it matters in some cases, please let me know.
 
 
 ## License
