@@ -51,7 +51,8 @@ devDependencies:
   webpack: ^3.3.0
 ```
 
-You can try it above.
+You can try it above. It will look like [this](./demo.gif).
+
 
 ## Usage
 
